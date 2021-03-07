@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'MetropolisLight';
+  src: local('Metropolis Light'), local('Metropolis-Light'),
+      url('../fonts/Metropolis-Light.woff2') format('woff2'),
+      url('../fonts/Metropolis-Light.woff') format('woff'),
+      url('../fonts/Metropolis-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MetropolisRegular';
+  src: local('Metropolis Regular'), local('Metropolis-Regular'),
+      url('../fonts/Metropolis-Regular.woff2') format('woff2'),
+      url('../fonts/Metropolis-Regular.woff') format('woff'),
+      url('../fonts/Metropolis-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MetropolisBold';
+  src: local('Metropolis Bold'), local('Metropolis-Bold'),
+      url('../fonts/Metropolis-Bold.woff2') format('woff2'),
+      url('../fonts/Metropolis-Bold.woff') format('woff'),
+      url('../fonts/Metropolis-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MetropolisMedium';
+  src: local('Metropolis Medium'), local('Metropolis-Medium'),
+      url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+      url('../fonts/Metropolis-Medium.woff') format('woff'),
+      url('../fonts/Metropolis-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card-content{
+  padding-top: 40px;
+}

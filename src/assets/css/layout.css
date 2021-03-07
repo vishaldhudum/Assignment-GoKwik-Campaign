@@ -1,0 +1,43 @@
+.promotions-banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 280px;
+  background: #040910;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #273342, #040910);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #273342, #040910); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.campaign-header{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.campaign-header .heading{
+  margin-top: 15px;
+}
+.campaign-header .heading .heading-text{
+  background: -webkit-linear-gradient(left, #C200D5, #FF1D79, #FECE00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6rem;
+  margin-right: 15px;
+}
+
+.emoji{
+  font-size: 1.6rem;
+}
+
+.card-wrap {
+  padding-top: 40px;
+  width: 320px;
+}
+
+.powered{
+  padding: 15px;
+  font-size: 10px;
+  font-family: 'MetropolisMedium';
+  text-align: center;
+}
